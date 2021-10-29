@@ -1,0 +1,42 @@
+Microsoft Windows [Version 10.0.19042.1237]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\z004du6d>pwd
+'pwd' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\z004du6d>cd /Users/z004du6d/eclipse-workspace/SoccerApplication
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git init
+Reinitialized existing Git repository in C:/Users/z004du6d/eclipse-workspace/SoccerApplication/.git/
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git add .
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git commit -m "First commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git remote add origin https://github.com/meryem-s/SoccerApplicationSolution.git
+error: remote origin already exists.
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>git push -u origin master
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (31/31), 14.83 KiB | 759.00 KiB/s, done.
+Total 31 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/meryem-s/SoccerApplicationSolution.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\z004du6d\eclipse-workspace\SoccerApplication>
